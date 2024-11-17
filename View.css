@@ -1,9 +1,0 @@
-.back{
-
-    display: flex;                /* Enables flexbox */
-    justify-content: center;      /* Centers horizontally */
-    align-items: center;          /* Centers vertically */
-    height: 100vh;                /* Makes the container full screen height */
-    margin: 0;    
-    background-color: black;
-   }

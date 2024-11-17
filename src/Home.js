@@ -13,7 +13,7 @@ const App = () => {
       
      
      <div>
-     <Link to="/view">Home</Link>
+     <Link to="/View">Home</Link>
      </div>
    
     </div>
