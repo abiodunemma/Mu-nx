@@ -4,13 +4,10 @@ import './css/View.css';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
+
 const App = () => {
-  return (
-   
-
-
-<div className='background-container'>
-
+  return ( 
+  <div className='background-container'>
   <div className='overlay'>
 <h1>
 Find inspiration. Get 
@@ -18,6 +15,9 @@ Find inspiration. Get
 <div>Book today.</div>
 </h1>
 </div>
+<Link to="/Login">
+<button className="centered-button">Get Started</button>
+</Link>
 </div>
     
   );

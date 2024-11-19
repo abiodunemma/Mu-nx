@@ -1,0 +1,22 @@
+/* Ensure html and body take up full height */
+html, body {
+  height: 100%;  /* Make sure body takes up the entire viewport height */
+  margin: 0;     /* Remove default margin */
+}
+
+/* Flexbox on the parent container */
+.background-container {
+  display: flex;            /* Enable flexbox */
+  justify-content: center;  /* Center the child horizontally */
+  align-items: center;      /* Center the child vertically */
+  height: 100vh;            /* Take up full viewport height */
+  background-color: lightblue; /* Optional background color */
+}
+
+/* Styling for the .main container */
+.main {
+  background-color: aqua;    /* Background color */
+  padding: 20px;             /* Padding inside the container */
+  text-align: center;        /* Center text inside the container */
+  border-radius: 8px;        /* Optional: Rounded corners */
+}

@@ -4,6 +4,7 @@ import Home from './Home';
 import './App.css';
 import View from './View';
 
+
 function App() {
 return (
   <Router>
@@ -14,6 +15,7 @@ return (
           </Route>
           <Route path="/View">
             <View />
+       
           </Route>
         </Switch>
       </div>
